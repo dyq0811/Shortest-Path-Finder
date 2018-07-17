@@ -3,6 +3,7 @@
 You may have played a game where starting from some Wikipedia page, you try to get to another Wikipedia page in as few pages as possible (there's even a Wikipedia page about the idea). You can think about the web as a directed graph, where a link from one page to another corresponds to an edge. The pages and links between pages in Wikipedia correspond to a subgraph of the graph of the entire web, and the goal of this project is to find a shortest path between two vertices in that subgraph.
 
 
+Usage:
 java PathFinder vertexFile edgeFile
 
 
